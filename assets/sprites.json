@@ -1,0 +1,11 @@
+{
+		
+	"elevator": [
+		
+			{
+				"density": 2, "friction": 0, "bounce": 0, 
+				"filter": { "categoryBits": 1, "maskBits": 65535 },
+				"shape": [   36, 44  ,  95, 44 ,  90, 83  ,  120,100, 120,262 , 2,262, 2,100,   36,98 ]
+			}  
+	]		
+}
