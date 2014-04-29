@@ -2,27 +2,27 @@ var game = new Phaser.Game(800, 600, Phaser.CANVAS, 'phaser-example', { preload:
 
 function preload() {
 
-	game.load.image('elevator', '/assets/sprites/elevator.png');
-	game.load.image('some_object', '/assets/sprites/object.png');
-	game.load.image('tile', '/assets/sprites/tile.png');
-	game.load.image('back', '/assets/sprites/back.png');
-	game.load.image('enemy', '/assets/sprites/enemy.png');
-	game.load.image('banka', '/assets/sprites/banka.png');
-	game.load.image('butylka', '/assets/sprites/butylka.png');
-	game.load.physics('physicsData', 'assets/sprites.json');
-	game.load.image('tile1', 'assets/sprites/tile1.png');
-	game.load.image('tile2', 'assets/sprites/tile2.png');
-	game.load.image('tile2-3', 'assets/sprites/tile2-3.png');
-	game.load.image('tile3', 'assets/sprites/tile3.png');
-	game.load.image('tile3-4', 'assets/sprites/tile3-4.png');
-	game.load.image('tile4', 'assets/sprites/tile4.png');
-	game.load.image('tile4-4', 'assets/sprites/tile4-4.png');
-	game.load.image('tile4-5', 'assets/sprites/tile4-5.png');
-	game.load.image('tile5', 'assets/sprites/tile5.png');
-	game.load.image('tile5-6', 'assets/sprites/tile5-6.png');
-	game.load.image('tile6', 'assets/sprites/tile6.png');
-	game.load.image('tile6-6', 'assets/sprites/tile6.png');
-	game.load.audio('soundtrack', ['assets/music/old29-1.mp3']);
+	game.load.image('elevator', './assets/sprites/elevator.png');
+	game.load.image('some_object', './assets/sprites/object.png');
+	game.load.image('tile', './assets/sprites/tile.png');
+	game.load.image('back', './assets/sprites/back.png');
+	game.load.image('enemy', './assets/sprites/enemy.png');
+	game.load.image('banka', './assets/sprites/banka.png');
+	game.load.image('butylka', './assets/sprites/butylka.png');
+	game.load.physics('physicsData', './assets/sprites.json');
+	game.load.image('tile1', './assets/sprites/tile1.png');
+	game.load.image('tile2', './assets/sprites/tile2.png');
+	game.load.image('tile2-3', './assets/sprites/tile2-3.png');
+	game.load.image('tile3', './assets/sprites/tile3.png');
+	game.load.image('tile3-4', './assets/sprites/tile3-4.png');
+	game.load.image('tile4', './assets/sprites/tile4.png');
+	game.load.image('tile4-4', './assets/sprites/tile4-4.png');
+	game.load.image('tile4-5', './assets/sprites/tile4-5.png');
+	game.load.image('tile5', './assets/sprites/tile5.png');
+	game.load.image('tile5-6', './assets/sprites/tile5-6.png');
+	game.load.image('tile6', './assets/sprites/tile6.png');
+	game.load.image('tile6-6', './assets/sprites/tile6.png');
+	game.load.audio('soundtrack', ['./assets/music/old29-1.mp3']);
 
 };
 var elevator;
